@@ -66,27 +66,26 @@ export default defineConfig({
         }
       : undefined
   },
-  plugins: [react({
-    jsxImportSource: '@emotion/react',
-    babel: {
-      plugins: [
-        'babel-plugin-macros',
-        [
-          '@emotion/babel-plugin-jsx-pragmatic',
-          {
-            export: 'jsx',
-            import: '__cssprop',
-            module: '@emotion/react',
-          },
-        ],
-        [
-          '@babel/plugin-transform-react-jsx',
-          { pragma: '__cssprop' },
-          'twin.macro',
-        ],
-      ],
-    },
-  }), noparse()],
+  plugins: [
+    react({
+      jsxImportSource: '@emotion/react',
+      babel: {
+        plugins: [
+          'babel-plugin-macros',
+          [
+            '@emotion/babel-plugin-jsx-pragmatic',
+            {
+              export: 'jsx',
+              import: '__cssprop',
+              module: '@emotion/react'
+            }
+          ],
+          ['@babel/plugin-transform-react-jsx', { pragma: '__cssprop' }, 'twin.macro']
+        ]
+      }
+    }),
+    noparse()
+  ],
   resolve: {
     alias: {
       '~/': `${root}/`
