@@ -20,11 +20,11 @@ specifiers:
   prettier: 2.7.1
   react: npm:@preact/compat@17.1.1
   react-dom: npm:@preact/compat@17.1.1
-  rollup: 2.75.7
+  rollup: 2.76.0
   tailwindcss: 3.1.4
   twin.macro: 2.8.2
   typescript: 4.7.4
-  vite: 2.9.13
+  vite: 2.9.14
 
 dependencies:
   '@emotion/react': 11.9.3_9510d01efb2d8696a53361310596315e
@@ -50,9 +50,9 @@ devDependencies:
   lint-staged: 13.0.3
   postcss: 8.4.14
   prettier: 2.7.1
-  rollup: 2.75.7
+  rollup: 2.76.0
   typescript: 4.7.4
-  vite: 2.9.13
+  vite: 2.9.14
 
 packages:
 
@@ -5057,8 +5057,8 @@ packages:
     dependencies:
       glob: 7.2.0
 
-  /rollup/2.75.7:
-    resolution: {integrity: sha512-VSE1iy0eaAYNCxEXaleThdFXqZJ42qDBatAwrfnPlENEZ8erQ+0LYX4JXOLPceWfZpV1VtZwZ3dFCuOZiSyFtQ==}
+  /rollup/2.76.0:
+    resolution: {integrity: sha512-9jwRIEY1jOzKLj3nsY/yot41r19ITdQrhs+q3ggNWhr9TQgduHqANvPpS32RNpzGklJu3G1AJfvlZLi/6wFgWA==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -5780,8 +5780,8 @@ packages:
       vfile-message: 2.0.4
     dev: true
 
-  /vite/2.9.13:
-    resolution: {integrity: sha512-AsOBAaT0AD7Mhe8DuK+/kE4aWYFMx/i0ZNi98hJclxb4e0OhQcZYUrvLjIaQ8e59Ui7txcvKMiJC1yftqpQoDw==}
+  /vite/2.9.14:
+    resolution: {integrity: sha512-P/UCjSpSMcE54r4mPak55hWAZPlyfS369svib/gpmz8/01L822lMPOJ/RYW6tLCe1RPvMvOsJ17erf55bKp4Hw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -5799,7 +5799,7 @@ packages:
       esbuild: 0.14.29
       postcss: 8.4.14
       resolve: 1.22.0
-      rollup: 2.75.7
+      rollup: 2.76.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
